@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Customized Home Maintenance Plan</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!--<link rel="stylesheet" type="text/css" href="styles.css">-->
+  <script src="script.js"></script>
+</head>
+<body>
+  <h1>Welcome to Your Home Maintenance Planner!</h1>
+  <form id="planForm">
+    <div class="step" id="step1">
+      <h2>Step 1: Select Your Homeownership Priorities</h2>
+      <div class="priority-box">
+        <input type="checkbox" id="basicMaintenance" name="basicMaintenance" checked="checked" disabled="disabled">
+        <label for="basicMaintenance">Basic Maintenance</label> 
+      </div>
+      <div class="priority-box">
+        <input type="checkbox" id="homeSafety" name="homeSafety" value="homeSafety">
+        <label for="homeSafety">Home Safety</label>
+      </div>
+      <div class="priority-box">
+        <input type="checkbox" id="preventativeMaintenance" name="preventativeMaintenance" value="preventativeMaintenance">
+        <label for="preventativeMaintenance">Emergency Prevention</label>
+      </div>
+      <div class="priority-box">
+        <input type="checkbox" id="seasonalMaintenance" name="seasonalMaintenance" value="seasonalMaintenance">
+        <label for="seasonalMaintenance">Seasonal Maintenance</label>
+      </div>
+      <div class="priority-box">
+        <input type="checkbox" id="smartHomeTechnology" name="smartHomeTechnology" value="smartHomeTechnology">
+        <label for="smartHomeTechnology">Smart Home</label>
+      </div>
+      <div class="priority-box">
+        <input type="checkbox" id="earthFriendliness" name="earthFriendliness" value="earthFriendliness">
+        <label for="earthFriendliness">Earth Friendly</label>
+      </div>
+      <div class="priority-box">
+        <input type="checkbox" id="comfortAndShine" name="comfortAndShine" value="comfortAndShine">
+        <label for="comfortAndShine">Comfort &amp; Shine</label>
+      </div>
+      <div class="priority-box">
+        <input type="checkbox" id="kidFriendliness" name="kidFriendliness">
+        <label for="kidFriendliness">Kids & Pets</label>
+      </div>
+      <!-- Add more priorities as needed -->
+      <button type="button" id="next1">Next</button>
+    </div>
+    <!-- Add more steps as needed -->
+    <div class="step" id="step2" style="display: none;">
+        <h2>Step 2: Tell us a little about yourself</h2>
+        <label for="zipcode">Zip Code:</label><br>
+        <input type="text" id="zipcode" name="zipcode"><br>
+        <label for="email">Email:</label><br>
+        <input type="text" id="email" name="email"><br>
+        <!-- Add more priorities as needed -->
+        <button type="button" id="next2">Finish</button>
+      </div>
+  </form>
+  <script src="script.js"></script>
+</body>
+</html>
